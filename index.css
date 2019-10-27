@@ -16,15 +16,15 @@
     justify-content: center;
     align-items: center; }
   .ns-top .about-us {
-    height: 560px;
     background-color: #F19394; }
   .ns-top .section-title {
     margin: -4px auto;
     padding-top: 20px; }
   .ns-top .discription {
     display: flex;
-    width: 600px;
-    margin: 40px auto; }
+    max-width: 600px;
+    margin: 40px auto;
+    flex-wrap: wrap; }
   .ns-top .profile-img {
     flex: 1; }
   .ns-top .profile {
@@ -39,5 +39,22 @@
       justify-content: center;
       align-items: center;
       background-color: #999BDC; }
+  .ns-top .blog-wrapper {
+    max-width: 760px;
+    margin: 0 auto; }
+    .ns-top .blog-wrapper .row {
+      display: flex;
+      flex-wrap: wrap; }
+    .ns-top .blog-wrapper .blog-container {
+      border-radius: 10px;
+      width: 200px;
+      margin: 0 auto 10px;
+      background-color: #999BDC; }
+    .ns-top .blog-wrapper .blog-desc-wrapper {
+      padding: 0 10px 10px; }
+    .ns-top .blog-wrapper .blog-img {
+      width: 200px;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px; }
 
 /*# sourceMappingURL=index.css.map */
