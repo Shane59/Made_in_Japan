@@ -1,0 +1,52 @@
+.ns-top {
+  margin: 0 auto;
+  text-align: center;
+  .top-img {
+    width: 100%;
+    height: auto;
+  }
+  .btn {
+    border: 1px solid black;
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  .btn a {
+    text-decoration: none;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-us {
+    height: 560px;
+    background-color: #F19394;
+  }
+  .section-title {
+    margin: -4px auto;
+    padding-top: 20px;
+  }
+  .discription {
+    display: flex;
+    width: 600px;
+    margin: 40px auto;
+  }
+  .profile-img {
+    flex: 1;
+  }
+  .profile {
+    height: 200px;
+  }
+  .short-message-wrapper {
+    flex: 1;
+    .btn {
+      height: 30px;
+      width: 170px;
+      margin: 50px auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #999BDC;
+    }
+  }
+}
